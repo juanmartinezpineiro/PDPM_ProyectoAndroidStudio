@@ -10,28 +10,34 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="92dp"
         android:text="Android Challenges Proyect by Juan Martínez"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="93dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_Challenge1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Primer Reto"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="292dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="228dp"
+        android:text="Primer_Reto"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Challenge2"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_Challenge2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:text="Segundo Reto"
+        android:layout_height="48dp"
+        android:layout_marginEnd="48dp"
+        android:text="Segundo_Reto"
         app:layout_constraintBottom_toBottomOf="@+id/btn_Challenge1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btn_Challenge1"
         app:layout_constraintTop_toTopOf="@+id/btn_Challenge1"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -39,29 +45,32 @@
         android:id="@+id/btn_Challenge3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TERCER RETO"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="402dp" />
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="332dp"
+        android:text="TERCER_RETO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_Challenge4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CUARTO RETO"
+        android:layout_marginStart="68dp"
+        android:text="CUARTO_RETO"
         app:layout_constraintBottom_toBottomOf="@+id/btn_Challenge3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.792"
         app:layout_constraintStart_toEndOf="@+id/btn_Challenge3"
         app:layout_constraintTop_toTopOf="@+id/btn_Challenge3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Para ganar tienes que ganar los retos!"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="160dp" />
+        android:text="Consigue todos los retos, para resultar victorioso!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="152dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
