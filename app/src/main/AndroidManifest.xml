@@ -13,7 +13,6 @@
         <activity android:name=".Challenge3" />
         <activity android:name=".Challenge2" />
         <activity android:name=".Challenge1" />
-        <activity android:name=".Reto1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

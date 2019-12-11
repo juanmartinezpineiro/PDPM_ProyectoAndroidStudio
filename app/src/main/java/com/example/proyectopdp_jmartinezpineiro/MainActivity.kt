@@ -63,6 +63,38 @@ class MainActivity : AppCompatActivity() {
             btn_Challenge1.setEnabled(false)//desactivamos el reto, ya se ha realizado
         }
 
+        // RESULTADO RETO2
+
+
+        if (requestCode == BTN_CHALLENGE2_REQUEST) {
+            if (resultCode == Activity.RESULT_OK) {
+                if (data?.getBooleanExtra("resp", false)!!.equals(true)) {
+                    btn_Challenge2.setBackgroundColor(Color.GREEN)//boton verde= acierto
+                    toast("CORRECTO")
+                } else {
+                    btn_Challenge2.setBackgroundColor(Color.RED)//boton rojo= error
+                    toast("INCORRECTO")
+                }
+            }
+            btn_Challenge2.setEnabled(false)//desactivamos el reto, ya se ha realizado
+        }
+
+
+        // RESULTADO RETO3
+
+        if (requestCode == BTN_CHALLENGE3_REQUEST) {
+            if (resultCode == Activity.RESULT_OK) {
+                btn_Challenge3.setBackgroundColor(Color.GREEN)//boton verde= acierto
+                toast("CORRECTO")
+
+            } else {
+                btn_Challenge3.setBackgroundColor(Color.RED)//boton rojo= error
+                toast("INCORRECTO")
+            }
+            btn_Challenge3.setEnabled(false)//desactivamos el reto, ya se ha realizado
+        }
+
+
 
     }
 
