@@ -22,24 +22,24 @@ class MainActivity : AppCompatActivity() {
 
         /*Codigo que llama a la activity de la pregunta (reto1)*/
         btn_Challenge1.setOnClickListener{
-            val intent = Intent(this, btn_Challenge1::class.java)
+            val intent = Intent(this, Challenge1::class.java)
             startActivityForResult(intent, BTN_CHALLENGE1_REQUEST) //Se inicia
         }
         /*Codigo que llama a la activity de la camara, que selecciona un color, para ganar habra que sacar una foto con el color indicado (reto2)*/
         btn_Challenge2.setOnClickListener{
-            val intent = Intent(this, btn_Challenge2::class.java)
+            val intent = Intent(this, Challenge2::class.java)
             startActivityForResult(intent, BTN_CHALLENGE2_REQUEST) //Se inicia
         }
 
         /*Codigo que llama a la activity del calculo que pidamos (reto3)*/
         btn_Challenge3.setOnClickListener{
-            val intent = Intent(this, btn_Challenge3::class.java)
+            val intent = Intent(this, Challenge3::class.java)
             startActivityForResult(intent, BTN_CHALLENGE3_REQUEST) //Se inicia
         }
 
         /*Codigo que llama a la activity que todavia está en desarrollo reto4)*/
         btn_Challenge4.setOnClickListener{
-            val intent = Intent(this, btn_Challenge4::class.java)
+            val intent = Intent(this, Challenge4::class.java)
             startActivityForResult(intent, BTN_CHALLENGE4_REQUEST) //Se inicia
         }
 

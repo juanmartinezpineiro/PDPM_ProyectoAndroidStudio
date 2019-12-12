@@ -10,8 +10,8 @@
         android:id="@+id/textEnunciado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
         android:text="Realiza una foto en la que aparezca el color del boton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,8 +20,8 @@
         android:id="@+id/btnColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="152dp"
         android:text="¿Qué color será?"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,8 +30,8 @@
         android:id="@+id/imageView"
         android:layout_width="259dp"
         android:layout_height="282dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
@@ -40,8 +40,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="120dp"
         android:text="Este reto necesita permisos para usar la camara*"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,8 +50,8 @@
         android:id="@+id/btnCamara"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="616dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="496dp"
         android:text="SACAR FOTO"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -60,9 +60,9 @@
         android:id="@+id/btnCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="616dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="544dp"
         android:text="¿Es correcto?"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
