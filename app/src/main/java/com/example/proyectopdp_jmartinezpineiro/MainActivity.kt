@@ -87,12 +87,25 @@ class MainActivity : AppCompatActivity() {
                 btn_Challenge3.setBackgroundColor(Color.GREEN)//boton verde= acierto
                 toast("CORRECTO")
 
-            } else {
-                btn_Challenge3.setBackgroundColor(Color.RED)//boton rojo= error
+            } else {btn_Challenge3.setBackgroundColor(Color.RED)//boton rojo= error
                 toast("INCORRECTO")
             }
             btn_Challenge3.setEnabled(false)//desactivamos el reto, ya se ha realizado
         }
+
+
+        if (requestCode == BTN_CHALLENGE4_REQUEST) {
+            if (resultCode == Activity.RESULT_OK) {
+                btn_Challenge4.setBackgroundColor(Color.GREEN)//boton verde= acierto
+                toast("CORRECTO")
+
+            } else {
+                btn_Challenge4.setBackgroundColor(Color.RED)//boton rojo= error
+                toast("INCORRECTO")
+            }
+            btn_Challenge4.setEnabled(false)//desactivamos el reto, ya se ha realizado
+        }
+
 
 
 
